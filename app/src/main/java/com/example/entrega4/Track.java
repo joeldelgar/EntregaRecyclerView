@@ -1,6 +1,7 @@
 package com.example.entrega4;
 
 public class Track {
+    public String id;
     public String songname;
     public String artist;
 
@@ -21,11 +22,19 @@ public class Track {
         return songname;
     }
 
+    public String getId(){
+        return id;
+    }
+
     public void setArtist(String artist) {
         this.artist = artist;
     }
 
     public void setSongname(String sname) {
         this.songname = sname;
+    }
+
+    public void setId(String id){
+        this.id = id;
     }
 }
