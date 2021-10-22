@@ -25,7 +25,7 @@ public class Track {
         this.artist = artist;
     }
 
-    public void setSongname(String songname) {
-        this.songname = songname;
+    public void setSongname(String sname) {
+        this.songname = sname;
     }
 }
